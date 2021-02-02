@@ -1,0 +1,25 @@
+/* CSS variable colorations etc. */
+
+:root {
+  --bg: antiquewhite;
+  --top-and-bottom: mintcream;
+  --main: white;
+  --section: mediumpurple;
+  --text: blue;
+}
+
+body {
+  background-color: var(--bg);
+}
+
+p {
+}
+
+header,
+footer {
+  background-color: var(--top-and-bottom);
+}
+
+main {
+  background-color: var(--main);
+}
