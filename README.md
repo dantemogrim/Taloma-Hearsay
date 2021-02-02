@@ -6,10 +6,11 @@
 
 This is an individual school assignment in PHP where the purpose was to create a news feed with fake news articles. I figured it'd be fun to put my own spin on it. I decided to go with a made up town name, with made up characters and write made up stories based off of true small town gossip culture, as I recall it.
 
-<details><summary><b>:books: Required criterias:</b></summary>
+<details><summary><b>:books:  Required criterias:</b></summary>
 The news feed will consist solely of a list of news feed items created by different authors. In total you should have 5 different authors all with at least 2 different news feed items each. The news feed item contents does not have to be logical data so you can use something like [Lorem Ipsum](https://en.m.wikipedia.org/wiki/Lorem_ipsum) to add some content.
 
 **The news feed items should contain:**
+
 - Title
 - Content
 - Author
@@ -17,36 +18,23 @@ The news feed will consist solely of a list of news feed items created by differ
 - Like counter _(the number of fake likes a news item has received)_
 
 **The news feed author items should contain the following data:**
+
 - ID
 - Full name
 
-Both the authors and the news feed items should be stored in [arrays](https://php.net/manual/en/language.types.array.php) in a structure that's simple to use in your code and that's easily understandable. The authors and news feed items don't have to be within the same array but some sort of connection should exist between a news feed item and it's author. The news feed items **should** be ordered based on the published date, so the latest news feed item should go on top and vice versa.
+Both the authors and the news feed items should be stored in arrays in a structure that's simple to use in your code and that's easily understandable. The authors and news feed items don't have to be within the same array but some sort of connection should exist between a news feed item and it's author. The news feed items **should** be ordered based on the published date, so the latest news feed item should go on top and vice versa.
 
-**The project should use the following functionality:**
-    - Variables
-    - Multiple data types
-    - Arrays
-    - Functions
-    - Loops (for, while or foreach)
-    - Output (echo, print etc.)
+**The project should use the following functionality:** - Variables - Multiple data types - Arrays - Functions - Loops (for, while or foreach) - Output (echo, print etc.)
 
 - The project should be written in HTML, CSS and PHP.
-    
-- The project should [declare strict types](https://php.net/manual/en/functions.arguments.php#functions.arguments.type-declaration.strict) in files containing only PHP code.
-
-- The project should implement an [accessible](https://a11yproject.com/checklist/) [graphical user interface](https://en.m.wikipedia.org/wiki/Graphical_user_interface).
-
+- The project should declare strict types in files containing only PHP code.
+- The project should implement an accessible graphical user interface.
 - The project should not include any coding errors, warning or notices.
-    
 - The project must be tested on at least two of your classmates computers. Add the testers name to the `README.md` file.
-    
 - The repository should have at least 10 commits and **not just one big commit**.
-
 - The repository must contain a `README.md` file with installation instructions and documentation.
-
-- The repository must contain a [`LICENSE`](https://help.github.com/articles/open-source-licensing) file.
-
-- The repository must contain a [`.editorconfig`](https://editorconfig.org) file with your preferred settings.
+- The repository must contain a `LICENSE` file.
+- The repository must contain a `.editorconfig` file with your preferred settings.
 </details>
 
 ## :octocat: Instructions
@@ -66,11 +54,14 @@ _ATTN: A prerequisite - In order to do this you will need to have PHP installed 
 ## :mag: Code Review
 
 By [reviewer](https://github.com/)
+
 - [ ]
 - [ ]
 - [ ]
 - [ ]
 - [ ]
+
+> "Random quote."
 
 ## :man_technologist: Creator
 
