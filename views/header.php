@@ -15,4 +15,5 @@
 <body>
     <header>
         <img class="header-img" src="/img/header.png">
+        <h2>"Fake small town stories in true small town spirit."</h2>
     </header>

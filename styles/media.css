@@ -1,0 +1,14 @@
+/* Media queries. Break points. Resizing for user optimization. */
+
+/* SMARTPHONES. */
+@media screen and (max-width: 560px) {
+}
+
+/* TABLETS. */
+@media screen and (min-width: 560px) {
+}
+
+/* DESKTOPS AND LARGER SCREENS. */
+@media screen and (min-width: 1024px) {
+  /* Text adjustments */
+}
