@@ -9,12 +9,14 @@
         $title = $story['title'];
         $img = $story['img'];
         $article = $story['article'];
-        // $articleClass = $story['articleClass']; 
         $reporter = $story['reporter'];
         $date = $story['published'];
         $shade = $story['shade'];
+        $layout = $story['layout'];
 
         ?>
+
+        <!-- .editorconfig, order by date, randomized like counter ID in authors  -->
 
         <div class="article-container">
             <div class="title-section">
@@ -23,18 +25,18 @@
             </div>
             <br>
             <!-- Here! -->
-            <div class="article-section">
+            <div class="<?= $layout ?>">
                 <img class="article-img" src="<?= $img; ?>">
                 <br>
                 <span class=""><?= $article; ?></span>
             </div>
             <br>
             <br>
-            <img class="horizontal-line" src="/img/horizontalline.png">
-            <small><?php echo 'Reporter: ' . $reporter . ' | Published: ' . $date . ' | Shade: ' . $shade; ?></small>
+            <img src="/img/horizontalline.png">
+            <small class="article-info"><?php echo 'Reporter: ' . $reporter . ' | Published: ' . $date . ' | Shade: ' . $shade; ?></small>
         </div>
         <section>
-            <img class="dot2" src="/img/dot2.png">
+            - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
         </section>
     <?php endforeach; ?>
 </main>

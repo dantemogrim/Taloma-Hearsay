@@ -6,8 +6,10 @@
 
 This is an individual school assignment in PHP where the purpose was to create a news feed with fake news articles. I figured it'd be fun to put my own spin on it. I decided to go with a made up town name, with made up characters and write made up stories based off of true small town gossip culture, as I recall it.
 
+The illustrations are also made by me.
+
 <details><summary><b>:books:  Required criterias:</b></summary>
-The news feed will consist solely of a list of news feed items created by different authors. In total you should have 5 different authors all with at least 2 different news feed items each. The news feed item contents does not have to be logical data so you can use something like [Lorem Ipsum](https://en.m.wikipedia.org/wiki/Lorem_ipsum) to add some content.
+The news feed will consist solely of a list of news feed items created by different authors. In total you should have 5 different authors all with at least 2 different news feed items each. The news feed item contents does not have to be logical data so you can use something like lorem ipsum to add some content.
 
 **The news feed items should contain:**
 
@@ -24,7 +26,14 @@ The news feed will consist solely of a list of news feed items created by differ
 
 Both the authors and the news feed items should be stored in arrays in a structure that's simple to use in your code and that's easily understandable. The authors and news feed items don't have to be within the same array but some sort of connection should exist between a news feed item and it's author. The news feed items **should** be ordered based on the published date, so the latest news feed item should go on top and vice versa.
 
-**The project should use the following functionality:** - Variables - Multiple data types - Arrays - Functions - Loops (for, while or foreach) - Output (echo, print etc.)
+**The project should use the following functionality:**
+
+- Variables
+- Multiple data types
+- Arrays
+- Functions
+- Loops (for, while or foreach)
+- Output (echo, print etc.)
 
 - The project should be written in HTML, CSS and PHP.
 - The project should declare strict types in files containing only PHP code.
