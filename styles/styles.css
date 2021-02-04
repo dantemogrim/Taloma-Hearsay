@@ -27,13 +27,13 @@ header,
 
 main {
   background-color: var(--main);
-  border radius: 3px;
+  border-radius: 3px;
   padding: 3%;
 }
 
-.dot1, .dot2 {
-  width: auto;
-  height: auto;
+.dot1 {
+  width: 5%;
+  object-fit: contain;
 }
 
 .article-container {
@@ -56,17 +56,29 @@ span {
 }
 
 .article-img {
- width: auto;
+  width: 200px;
   height: auto;
 }
 
 .horizontal-line {
-  width: 50vw;
+  width: 55vw;
+  object-fit: contain;
 }
 
 .title-section {
-  display:flex;
+  display: flex;
   flex-direction: row;
+}
+
+.dot2 {
+  width: 40px;
+}
+
+section {
+  display: flex;
+  background-color: var(--section);
+  flex-direction: column;
+  align-items: center;
 }
 
 footer {
