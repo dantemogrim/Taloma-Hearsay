@@ -44,16 +44,6 @@ main {
   width: 80vw;
 }
 
-/* .left {
-  display: flex;
-  flex-direction: row;
-}
-
-.right {
-  display: flex;
-  flex-direction: row-reverse;
-} */
-
 span {
   margin: 2%;
 }

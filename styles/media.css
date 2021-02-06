@@ -3,7 +3,7 @@
 /* SMARTPHONES. */
 @media screen and (max-width: 560px) {
   .header-img {
-  width: 90vw;
+    width: 90vw;
   }
 
   .dot1 {
@@ -21,7 +21,7 @@
   }
 
   .article-img {
-width: 250px;
+    width: 250px;
   }
 
   .horizontal-line {
@@ -29,8 +29,15 @@ width: 250px;
     visibility: visible;
   }
 
-section {
-visibility: hidden;
+  section {
+    visibility: hidden;
+  }
+
+  .footer-img {
+    width: 30%;
+    height: auto;
+    padding-bottom: 10%;
+  }
 }
 
 /* TABLETS. */
@@ -40,4 +47,14 @@ visibility: hidden;
 /* DESKTOPS AND LARGER SCREENS. */
 @media screen and (min-width: 1024px) {
   /* Text adjustments */
+
+  .left {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .right {
+    display: flex;
+    flex-direction: row-reverse;
+  }
 }
