@@ -35,16 +35,16 @@ main {
 
 .article-container {
   background-color: var(--section);
-  display: flex;
+  /* display: flex; */
   border-radius: 10px;
-  flex-direction: column;
+  /* flex-direction: column; */
   align-self: center;
   padding: 1%;
   margin: 3%;
   width: 80vw;
 }
 
-.left {
+/* .left {
   display: flex;
   flex-direction: row;
 }
@@ -52,15 +52,10 @@ main {
 .right {
   display: flex;
   flex-direction: row-reverse;
-}
+} */
 
 span {
   margin: 2%;
-}
-
-.article-img {
-  width: 200px;
-  height: auto;
 }
 
 .horizontal-line {
@@ -83,7 +78,7 @@ span {
 
 section {
   display: flex;
-  background-color: var(--main);
+  /* background-color: var(--main); */
   flex-direction: column;
   align-items: center;
 }
