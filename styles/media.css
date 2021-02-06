@@ -33,6 +33,13 @@
     visibility: hidden;
   }
 
+  .symbol {
+    position: relative;
+    left: 140px;
+    visibility: visible;
+    display: unset;
+  }
+
   .footer-img {
     width: 30%;
     height: auto;

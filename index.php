@@ -39,6 +39,7 @@
     <section class="media-query">
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     </section>
+    <img class="symbol" src="/img/dot4.png" hidden>
   <?php endforeach; ?>
 </main>
 
