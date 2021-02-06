@@ -3,7 +3,7 @@
 /* SMARTPHONES. */
 @media screen and (max-width: 560px) {
   .header-img {
-    width: 90vw;
+    width: 80vw;
   }
 
   .dot1 {
@@ -11,7 +11,7 @@
   }
 
   h2 {
-    font-size: 1em;
+    font-size: 1.4em;
   }
 
   .media-query {
@@ -24,20 +24,18 @@
     width: 250px;
   }
 
+  .article-info {
+    display: unset;
+    visibility: visible;
+  }
+
+  small {
+    font-size: 1em;
+  }
+
   .horizontal-line {
     padding: 3%;
     visibility: visible;
-  }
-
-  section {
-    visibility: hidden;
-  }
-
-  .symbol {
-    position: relative;
-    left: 140px;
-    visibility: visible;
-    display: unset;
   }
 
   .footer-img {
@@ -49,11 +47,68 @@
 
 /* TABLETS. */
 @media screen and (min-width: 560px) {
+  .header-img {
+    width: 70vw;
+  }
+
+  .dot1 {
+    visibility: hidden;
+  }
+  .media-query {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .article-img {
+    display: none;
+  }
+
+  .info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+
+  p.info {
+    display: flex;
+    visibility: visible;
+    text-align: center;
+    padding: 2%;
+  }
+
+  small {
+    font-size: 0.5em;
+  }
+
+  .tablet-img {
+    padding: 3%;
+    visibility: visible;
+    display: unset;
+    width: 50px;
+    height: auto;
+  }
+
+  .horizontal-line {
+    padding: 3%;
+    visibility: visible;
+  }
 }
 
 /* DESKTOPS AND LARGER SCREENS. */
 @media screen and (min-width: 1024px) {
-  /* Text adjustments */
+  .header-img {
+    width: 40vw;
+  }
+
+  .article-img {
+    display: flex;
+    visibility: visible;
+    width: 25vw;
+    max-width: 300px;
+  }
 
   .left {
     display: flex;
@@ -63,5 +118,27 @@
   .right {
     display: flex;
     flex-direction: row-reverse;
+  }
+
+  .tablet-img {
+    visibility: hidden;
+    display: none;
+  }
+
+  .article-info {
+    visibility: visible;
+    display: flex;
+  }
+
+  .info {
+    display: flex;
+    align-self: stretch;
+    font-size: 1em;
+    padding: 1px;
+  }
+
+  .horizontal-hidden-line {
+    visibility: hidden;
+    display: none;
   }
 }

@@ -16,16 +16,13 @@
 
     ?>
 
-    <!-- .editorconfig, order by date, randomized like counter ID in authors  -->
-
     <div class="article-container media-query">
       <div class="title-section media-query">
         <img class="dot1 media-query" src="/img/dot1.png">
         <h2> <?php echo $title;  ?> </h2>
       </div>
       <br>
-      <!-- Here! -->
-      <div class="<?= $layout ?> media-query">
+      <div class="<?= $layout ?> media-query image-and-article">
         <img class="article-img media-query" src="<?= $img; ?>">
         <br>
         <span class="article-text"><?= $article; ?></span>
@@ -33,13 +30,17 @@
       <br>
       <br>
       <img class="horizontal-line media-query" src="/img/horizontalline.png">
-      <small class="article-info"><?php echo 'Reporter: ' . $reporter . ' | Published: ' . $date . ' | Shade: ' . $shade; ?></small>
-      <img class="horizontal-line media-query" src="/img/horizontalline.png" hidden>
+      <div class="info-container">
+        <p class="info"><?php echo '<b>' . 'Reporter: ' . '</b>' . $reporter . ' '; ?></p>
+        <p class="info"><?php echo '<b>' . 'Published: ' . '</b>' . $date . ' '; ?></p>
+        <p class="info"><?php echo '<b>' . 'Shade: ' . '</b>' . $shade . ' '; ?></p>
+        <img class="tablet-img" src="<?= $img; ?>" hidden>
+      </div>
+      <img class="horizontal-hidden-line media-query" src="/img/horizontalline.png" hidden>
     </div>
     <section class="media-query">
-      - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      - - - - - - - - - - - - - - - - - -
     </section>
-    <img class="symbol" src="/img/dot4.png" hidden>
   <?php endforeach; ?>
 </main>
 
