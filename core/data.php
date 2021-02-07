@@ -6,22 +6,27 @@ require __DIR__ . '/functions.php';
 
 $reporters = [
   0  => [
+    'id' => 0,
     'name' => 'Fredrik Hansson',
     'portrait' => '/img/fredrik.png',
   ],
   1  => [
+    'id' => 1,
     'name' => 'Helen Asplöv',
     'portrait' => '/img/helen.png',
   ],
   2  => [
+    'id' => 2,
     'name' => 'Jenny Bergström',
     'portrait' => '/img/jenny.png',
   ],
   3  => [
+    'id' => 3,
     'name' => 'Linus Johansson',
     'portrait' => '/img/linus.png',
   ],
   4  => [
+    'id' => 4,
     'name' => 'Stefan Lidell',
     'portrait' => '/img/stefan.png',
   ],
@@ -30,6 +35,7 @@ $reporters = [
 
 $stories = [
   0 => [
+    'id' => 0,
     'title' => 'An alarming decrease in number of scapegoats concerns locals.',
     'img' => '/img/fredrik.png',
     'layout' => 'left',
@@ -47,6 +53,7 @@ $stories = [
 
   ],
   1 => [
+    'id' => 1,
     'title' => 'Drug addict survives horse tranquilizer injection.',
     'img' => '/img/helen.png',
     'layout' => 'right',
@@ -64,6 +71,7 @@ $stories = [
 
   ],
   2 => [
+    'id' => 2,
     'title' => 'This is the title.',
     'img' => '/img/jenny.png',
     'layout' => 'left',
@@ -81,6 +89,7 @@ $stories = [
 
   ],
   3 => [
+    'id' => 3,
     'title' => 'They stopped selling the strawberry flavored ice-cream at the local store.',
     'img' => '/img/linus.png',
     'layout' => 'right',
@@ -91,6 +100,7 @@ $stories = [
 
   ],
   4 => [
+    'id' => 4,
     'title' => 'A local ate lunch <i>alone</i> at the diner the other day.',
     'img' => '/img/stefan.png',
     'layout' => 'left',
@@ -108,6 +118,7 @@ $stories = [
 
   ],
   5 => [
+    'id' => 5,
     'title' => '10 Hot Tips on Fitting in Better!',
     'img' => '/img/fredrik.png',
     'layout' => 'right',
@@ -125,6 +136,7 @@ $stories = [
 
   ],
   6 => [
+    'id' => 6,
     'title' => 'This is the title.',
     'img' => '/img/helen.png',
     'layout' => 'left',
@@ -142,6 +154,7 @@ $stories = [
 
   ],
   7 => [
+    'id' => 7,
     'title' => 'My neighbor had plastic surgery but I haven’t been getting any e-mails from the public about it.',
     'img' => '/img/jenny.png',
     'layout' => 'right',
@@ -159,6 +172,7 @@ $stories = [
 
   ],
   8 => [
+    'id' => 8,
     'title' => 'This is the title.',
     'img' => '/img/linus.png',
     'layout' => 'left',
@@ -176,6 +190,7 @@ $stories = [
 
   ],
   9 => [
+    'id' => 9,
     'title' => 'This is the title.',
     'img' => '/img/stefan.png',
     'layout' => 'right',
@@ -193,6 +208,7 @@ $stories = [
 
   ],
   10 => [
+    'id' => 10,
     'title' => 'This is the title.',
     'img' => '/img/fredrik.png',
     'layout' => 'left',
@@ -210,6 +226,7 @@ $stories = [
 
   ],
   11 => [
+    'id' => 11,
     'title' => 'This is the title.',
     'img' => '/img/helen.png',
     'layout' => 'right',

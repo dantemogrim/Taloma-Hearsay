@@ -1,6 +1,6 @@
-/* Media queries. Break points. Resizing for user optimization. */
+/* Media queries. Sizings, break points. */
 
-/* SMARTPHONES. */
+/* --------------- SMARTPHONES. --------------- */
 @media screen and (max-width: 560px) {
   .header-img {
     width: 80vw;
@@ -15,9 +15,9 @@
   }
 
   .media-query {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
 
   .article-img {
@@ -33,6 +33,11 @@
     font-size: 1em;
   }
 
+  section {
+    display: none;
+    visibility: hidden;
+  }
+
   .horizontal-line {
     padding: 3%;
     visibility: visible;
@@ -41,11 +46,11 @@
   .footer-img {
     width: 30%;
     height: auto;
-    padding-bottom: 10%;
+    padding-bottom: 1%;
   }
 }
 
-/* TABLETS. */
+/* --------------- TABLETS. --------------- */
 @media screen and (min-width: 560px) {
   .header-img {
     width: 70vw;
@@ -55,9 +60,9 @@
     visibility: hidden;
   }
   .media-query {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
 
   .article-img {
@@ -65,18 +70,23 @@
   }
 
   .info-container {
+    align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
     width: 100vw;
   }
 
   p.info {
     display: flex;
-    visibility: visible;
-    text-align: center;
     padding: 2%;
+    text-align: center;
+    visibility: visible;
+  }
+
+  section {
+    display: none;
+    visibility: hidden;
   }
 
   small {
@@ -84,20 +94,30 @@
   }
 
   .tablet-img {
+    display: unset;
+    height: auto;
     padding: 3%;
     visibility: visible;
-    display: unset;
     width: 50px;
-    height: auto;
   }
 
   .horizontal-line {
     padding: 3%;
     visibility: visible;
   }
+
+  .footer-img {
+    width: 15vw;
+    height: auto;
+    padding-bottom: 1%;
+  }
+
+  footer {
+    align-items: center;
+  }
 }
 
-/* DESKTOPS AND LARGER SCREENS. */
+/* --------------- DESKTOPS AND LARGER SCREENS. --------------- */
 @media screen and (min-width: 1024px) {
   .header-img {
     width: 40vw;
@@ -125,20 +145,32 @@
     display: none;
   }
 
-  .article-info {
-    visibility: visible;
+  ul,
+  li {
     display: flex;
+    width: 60%;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 
-  .info {
+  section {
     display: flex;
-    align-self: stretch;
-    font-size: 1em;
-    padding: 1px;
+    text-justify: auto;
+    justify-content: center;
+    text-align: center;
+    visibility: visible;
+    font-size: 0.8em;
   }
 
   .horizontal-hidden-line {
     visibility: hidden;
     display: none;
+  }
+
+  .footer-img {
+    max-width: 200px;
+    width: 10vw;
+    height: auto;
+    padding-bottom: 1%;
   }
 }
