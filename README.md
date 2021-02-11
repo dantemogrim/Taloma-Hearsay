@@ -6,7 +6,7 @@
 
 This is an individual school assignment in PHP where the purpose was to create a news feed with fake news articles. I figured it'd be fun to put my own spin on it. I decided to go with a made up town name, with made up characters and write made up stories based off of true small town gossip culture, as I recall it.
 
-The illustrations are also made by me.
+:pencil2: All illustrations are made by me as well.
 
 <details><summary><b>:books:  Required criterias:</b></summary>
 The news feed will consist solely of a list of news feed items created by different authors. In total you should have 5 different authors all with at least 2 different news feed items each. The news feed item contents does not have to be logical data so you can use something like lorem ipsum to add some content.
