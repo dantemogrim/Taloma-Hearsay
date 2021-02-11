@@ -146,7 +146,7 @@ $stories = [
   ],
   [
     'id' => 6,
-    'title' => 'Won 10 000 on Keno - Terribly sad and disappointed',
+    'title' => 'Lars won 10 000 on Keno - Terribly disappointed it wasnt me, says neighbor',
     'img' => '/img/helen.png',
     'layout' => 'left',
     'article' => 'We have always been proud of our rich scapegoat supply in this town.
@@ -181,7 +181,7 @@ $stories = [
   ],
   [
     'id' => 8,
-    'title' => 'This is the title.',
+    'title' => 'The new cashier is not giving me special treatment - what to do?',
     'img' => '/img/linus.png',
     'layout' => 'left',
     'article' => 'We have always been proud of our rich scapegoat supply in this town.
@@ -199,7 +199,7 @@ $stories = [
   ],
   [
     'id' => 9,
-    'title' => 'This is the title.',
+    'title' => 'The King is coming to swear in our towns new bridge!',
     'img' => '/img/stefan.png',
     'layout' => 'right',
     'article' => 'We have always been proud of our rich scapegoat supply in this town.
@@ -217,7 +217,8 @@ $stories = [
   ],
   [
     'id' => 10,
-    'title' => 'This is the title.',
+    'title' => 'Woman from nowhere-ville sews phone company - there is supposed to be a
+    reception somewhere but i dont see it.',
     'img' => '/img/fredrik.png',
     'layout' => 'left',
     'article' => 'We have always been proud of our rich scapegoat supply in this town.
@@ -235,7 +236,7 @@ $stories = [
   ],
   [
     'id' => 11,
-    'title' => 'This is the title.',
+    'title' => 'Snails sew cabbage farmer: not even remotely close to michelin quality.',
     'img' => '/img/helen.png',
     'layout' => 'right',
     'article' => 'We have always been proud of our rich scapegoat supply in this town.
