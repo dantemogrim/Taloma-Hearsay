@@ -2,5 +2,10 @@
 
 declare(strict_types=1);
 
-// Write a function where usort returns the articles after
-// comparing their dates to each other.
+function dateSorter(array $stories): array
+{
+  usort($stories, function ($date1, $date2) {
+    return strtotime($date2['published']) <=> strtotime($date1['published']);
+  });
+  return $stories;
+}

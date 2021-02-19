@@ -2,8 +2,6 @@
 
 declare(strict_types=1);
 
-require __DIR__ . '/functions.php';
-
 $reporters = [
   [
     'id' => 0,
@@ -48,7 +46,7 @@ $stories = [
           are most definately the scapegoats themselves. If you find yourself standing next to a scapegoat
            in dire need of a new purpose - feel free to call our hotline at 0141-MY-LITTLE-SCAPEGOAT. Thank you.",
     'reporter' => $reporters[0]['name'],
-    'published' => '01-01-2021',
+    'published' => '17-02-2021',
     'shade' => mt_rand(10, 45),
 
   ],
@@ -56,7 +54,7 @@ $stories = [
     'id' => 1,
     'title' => "Drug addict survives horse tranquilizer injection.",
     'img' => '/img/helen.png',
-    'layout' => 'right',
+    'layout' => 'left',
     'article' => "The local veterinary ambulance reported to the police this Sunday that a local drug addict
     broke into one of their vehicles. The 52 year old man stole and injected a horse tranquilizer and was found
     in poor condition only minutes after the injection. The burglar was lucky enough to get in a
@@ -72,7 +70,7 @@ $stories = [
     'id' => 2,
     'title' => "An Intriguing Article Heading Placeholder.",
     'img' => '/img/jenny.png',
-    'layout' => 'left',
+    'layout' => 'right',
     'article' => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
     labore et dolore magna aliqua. Scelerisque eu ultrices vitae auctor eu augue ut. Amet nisl purus in mollis nunc.
     Mollis aliquam ut porttitor leo a diam sollicitudin tempor. Dictumst quisque sagittis purus sit.
@@ -113,7 +111,7 @@ $stories = [
     'id' => 4,
     'title' => "A local ate lunch <i>alone</i> at the diner the other day.",
     'img' => '/img/stefan.png',
-    'layout' => 'left',
+    'layout' => 'right',
     'article' => "Modern day lunch culture has gone too far. Recently me and my good friend Orvar Jönsson were
     having our regular Thursday lunch att Pekka's. Minutes went by and suddenly a new face comes through the doors.
     I'd never seen this person before, so it had to be either a newcomer or a tourist. Beside the point.
@@ -134,7 +132,7 @@ $stories = [
     'id' => 5,
     'title' => "10 Hot Tips on Fitting in Better!",
     'img' => '/img/fredrik.png',
-    'layout' => 'right',
+    'layout' => 'left',
     'article' => "<b>1.</b> Dont try to shape yourself into being a better person. Shape others!<br><b>2. </b>Make others feel bad so that you can feel better about yourself.<br>
     <b>3.</b> If someone says something awful - be agreeable! Or silent.<br><b>4.</b>Color is meant for nature - not for clothes! Find that wardrobe inspiration by looking at communal buildings or your neighbor.
     <br><b>5.</b> Take active part of local sporting events (regardless of your personal interests). Its a great way to pry on others.<br><b>6.</b>Make sure your kids make friends with the correct children in their class, to secure your social status.<br>
@@ -173,7 +171,7 @@ $stories = [
     'id' => 7,
     'title' => "My neighbor had plastic surgery but I haven’t been getting any e-mails from the public about it.",
     'img' => '/img/jenny.png',
-    'layout' => 'right',
+    'layout' => 'left',
     'article' => "I had the utmost trust that the people in this town would come to me
     if there were any signs of gossip surrounding anybody I know. I am now deeply concerned
     that my worst fears may have been acknowledged. Last night I saw Mr. Jonasson out for a regular walk
@@ -190,7 +188,7 @@ $stories = [
     'id' => 8,
     'title' => "The new cashier is not giving me special treatment - what to do?",
     'img' => '/img/linus.png',
-    'layout' => 'left',
+    'layout' => 'right',
     'article' => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
     labore et dolore magna aliqua. Scelerisque eu ultrices vitae auctor eu augue ut. Amet nisl purus in mollis nunc.
     Mollis aliquam ut porttitor leo a diam sollicitudin tempor. Dictumst quisque sagittis purus sit.
@@ -211,7 +209,7 @@ $stories = [
     'id' => 9,
     'title' => "The King is coming to swear in our towns new bridge!",
     'img' => '/img/stefan.png',
-    'layout' => 'right',
+    'layout' => 'left',
     'article' => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
     labore et dolore magna aliqua. Scelerisque eu ultrices vitae auctor eu augue ut. Amet nisl purus in mollis nunc.
     Mollis aliquam ut porttitor leo a diam sollicitudin tempor. Dictumst quisque sagittis purus sit.
@@ -224,7 +222,7 @@ $stories = [
     Euismod in pellentesque massa placerat duis. Ultricies tristique nulla aliquet enim.
     Fusce ut placerat orci nulla pellentesque dignissim enim sit.",
     'reporter' => $reporters[4]['name'],
-    'published' => '17-02-2021',
+    'published' => '17-10-2020',
     'shade' => mt_rand(10, 45),
 
   ],

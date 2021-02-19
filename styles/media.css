@@ -44,7 +44,7 @@
   }
 
   .footer-img {
-    width: 30%;
+    width: 90px;
     height: auto;
     padding-bottom: 1%;
   }
@@ -53,6 +53,7 @@
 /* --------------- TABLETS. --------------- */
 @media screen and (min-width: 560px) {
   .header-img {
+    max-width: 500px;
     width: 70vw;
   }
 
@@ -98,11 +99,11 @@
     height: auto;
     padding: 3%;
     visibility: visible;
-    width: 50px;
+    width: 100px;
   }
 
   .horizontal-line {
-    padding: 3%;
+    padding: 1%;
     visibility: visible;
   }
 
@@ -168,7 +169,7 @@
   }
 
   .footer-img {
-    max-width: 200px;
+    max-width: 150px;
     width: 10vw;
     height: auto;
     padding-bottom: 1%;
