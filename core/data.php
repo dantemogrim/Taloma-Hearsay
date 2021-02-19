@@ -68,10 +68,10 @@ $stories = [
   ],
   [
     'id' => 2,
-    'title' => "An Intriguing Article Heading Placeholder.",
+    'title' => "Captivating article title placeholder.",
     'img' => '/img/jenny.png',
     'layout' => 'right',
-    'article' => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+    'article' => "Who was Carol? Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
     labore et dolore magna aliqua. Scelerisque eu ultrices vitae auctor eu augue ut. Amet nisl purus in mollis nunc.
     Mollis aliquam ut porttitor leo a diam sollicitudin tempor. Dictumst quisque sagittis purus sit.
     Massa id neque aliquam vestibulum morbi blandit cursus. Integer feugiat scelerisque varius morbi.
@@ -207,7 +207,7 @@ $stories = [
   ],
   [
     'id' => 9,
-    'title' => "The King is coming to swear in our towns new bridge!",
+    'title' => "Captivating article title placeholder.",
     'img' => '/img/stefan.png',
     'layout' => 'left',
     'article' => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -228,8 +228,8 @@ $stories = [
   ],
   [
     'id' => 10,
-    'title' => "Woman from nowhere-ville sews phone company - there is supposed to be a
-    reception somewhere but i dont see it.",
+    'title' => "Woman from Nowhere Ville sews phone company - \"They told me there is supposed to be a
+    reception somewhere but I certainly don't see it.\"",
     'img' => '/img/fredrik.png',
     'layout' => 'left',
     'article' => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
