@@ -4,9 +4,8 @@
 
 ## :shipit: About
 
-This is an individual school assignment in PHP where the purpose was to create a news feed with fake news articles. I figured it'd be fun to put my own spin on it. I decided to go with a made up town name, with made up characters and write made up stories based off of true small town gossip culture, as I recall it.
-
-:pencil2: All illustrations are made by me as well.
+This is an individual school assignment in PHP where the purpose was to create a news feed with fake news articles. I decided to put my own spin on it and make fun of my own small town upbringing. I decided to go with a made up town name, with made up citizens and write fictional stories based off of true small town gossip culture (as I recall it).
+:pencil2: PS. All illustrations are made by me as well.
 
 <details><summary><b>:books:  Required criterias:</b></summary>
 The news feed will consist solely of a list of news feed items created by different authors. In total you should have 5 different authors all with at least 2 different news feed items each. The news feed item contents does not have to be logical data so you can use something like lorem ipsum to add some content.
@@ -53,7 +52,7 @@ _ATTN: A prerequisite - In order to do this you will need to have PHP installed 
 1. Clone or fork this repository to your computer.
 2. Open up your terminal and `cd` into the project folder.
 3. Create a local server by using the following command: `php -S localhost:1337`
-4. Open in your browser, write the name of your localhost in the url followed by `index.php` and access the project from there.
+4. Open in your browser, write the name of your localhost in the url followed by `/index.php` and access the project from there.
 
 ## :computer: Testers
 
@@ -74,8 +73,8 @@ By [reviewer](https://github.com/)
 
 ## :man_technologist: Creator
 
-- [Dante Mogrim](https://github.com/mogrim-91)
+[Dante Mogrim](https://github.com/mogrim-91)
 
 ## :fleur_de_lis: License
 
-- [MIT](https://en.wikipedia.org/wiki/MIT_License)
+[MIT](https://en.wikipedia.org/wiki/MIT_License)

@@ -3,13 +3,7 @@
   src: url("/fonts/IBMPlexMono-Light.ttf") format("truetype")
       url("/fonts/IBMPlexMono-Regular.ttf") format("truetype"),
     url("//db.onlinewebfonts.com/t/7cc6719bd5f0310be3150ba33418e72e.woff2")
-      format("woff2"),
-    url("//db.onlinewebfonts.com/t/7cc6719bd5f0310be3150ba33418e72e.woff")
-      format("woff"),
-    url("//db.onlinewebfonts.com/t/7cc6719bd5f0310be3150ba33418e72e.ttf")
-      format("truetype"),
-    url("//db.onlinewebfonts.com/t/7cc6719bd5f0310be3150ba33418e72e.svg#Comic Sans MS")
-      format("svg");
+      format("woff2");
 }
 
 /* Applies the same font to all the text on the site, plus fallback fonts. */
