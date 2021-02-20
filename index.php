@@ -20,31 +20,28 @@ require __DIR__ . '/views/header.php';
     ?>
 
     <div class="article-container media-query">
-      <div class="title-section media-query">
-        <img class="dot1 media-query" src="/img/dot1.png" loading="lazy">
-        <h2> <?php echo $title;  ?> </h2>
-      </div>
+      <h2> <?php echo $title;  ?> </h2>
       <br>
       <div class="<?= $layout ?> media-query image-and-article">
-        <img class="article-img media-query" src="<?= $img; ?>" loading="lazy">
+        <img class="article-img media-query" alt="Portrait drawing of the reporter of the article." src="<?= $img; ?>" loading="lazy">
         <br>
         <span class="article-text"><?= $article; ?></span>
       </div>
       <br>
       <br>
-      <img class="horizontal-line media-query" src="/img/horizontalline.png" loading="lazy">
+      <img class="horizontal-line media-query" alt="A wobbly, horizontal, hand drawn line." src="/img/horizontalline.png" loading="lazy">
       <div class="info-container">
         <ul>
           <li class="info"><b>Reporter: </b><?php echo $reporter; ?></li>
           <li class="info"><b>Published: </b><?php echo $date; ?></li>
           <li class="info"><b>Shade: </b><?php echo $shade; ?></li>
         </ul>
-        <img class="tablet-img" src="<?= $img; ?>" loading="lazy" hidden>
+        <img class="tablet-img" alt="Portrait drawing of the reporter of the article." src="<?= $img; ?>" loading="lazy" hidden>
       </div>
-      <img class="horizontal-hidden-line media-query" src="/img/horizontalline.png" loading="lazy" hidden>
+      <img class="horizontal-hidden-line media-query" alt="A wobbly, horizontal, hand drawn line." src="/img/horizontalline.png" loading="lazy" hidden>
     </div>
-    <section class="">
-      <p> - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - </p>
+    <section class="dashes" aria-hidden="true">
+      <p aria-hidden="true"> - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - </p>
     </section>
   <?php endforeach; ?>
 </main>
