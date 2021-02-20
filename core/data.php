@@ -209,7 +209,7 @@ $stories = [
     'id' => 9,
     'title' => "Captivating article title placeholder.",
     'img' => '/img/stefan.png',
-    'layout' => 'left',
+    'layout' => 'right',
     'article' => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
     labore et dolore magna aliqua. Scelerisque eu ultrices vitae auctor eu augue ut. Amet nisl purus in mollis nunc.
     Mollis aliquam ut porttitor leo a diam sollicitudin tempor. Dictumst quisque sagittis purus sit.
@@ -222,7 +222,7 @@ $stories = [
     Euismod in pellentesque massa placerat duis. Ultricies tristique nulla aliquet enim.
     Fusce ut placerat orci nulla pellentesque dignissim enim sit.",
     'reporter' => $reporters[4]['name'],
-    'published' => '17-10-2020',
+    'published' => '10-03-2020',
     'shade' => mt_rand(10, 45),
 
   ],
