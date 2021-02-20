@@ -29,7 +29,7 @@ require __DIR__ . '/views/header.php';
       </div>
       <br>
       <br>
-      <img class="horizontal-line media-query" alt="A wobbly, horizontal, hand drawn line." src="/img/horizontalline.png" loading="lazy">
+      <img class="horizontal-line media-query" alt="A wobbly, horizontal, hand drawn line. Meant as a divider of articles." src="/img/hr.png" loading="lazy">
       <div class="info-container">
         <ul>
           <li class="info"><b>Reporter: </b><?php echo $reporter; ?></li>
@@ -38,7 +38,7 @@ require __DIR__ . '/views/header.php';
         </ul>
         <img class="tablet-img" alt="Portrait drawing of the reporter of the article." src="<?= $img; ?>" loading="lazy" hidden>
       </div>
-      <img class="horizontal-hidden-line media-query" alt="A wobbly, horizontal, hand drawn line." src="/img/horizontalline.png" loading="lazy" hidden>
+      <img class="horizontal-hidden-line media-query" alt="A wobbly, horizontal, hand drawn line. Meant as a divider of articles." src="/img/hr.png" loading="lazy" hidden>
     </div>
     <section class="dashes" aria-hidden="true">
       <p aria-hidden="true"> - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - </p>

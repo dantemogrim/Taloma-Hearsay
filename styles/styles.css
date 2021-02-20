@@ -24,14 +24,11 @@ header,
 }
 
 main {
+  display: flex;
+  flex-direction: column;
   background-color: var(--bg);
   border-radius: 3px;
   padding: 1%;
-}
-
-.dot1 {
-  width: 5%;
-  object-fit: contain;
 }
 
 .article-container {
