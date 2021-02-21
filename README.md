@@ -63,16 +63,16 @@ _ATTN: A prerequisite - In order to do this you will need to have PHP installed 
 
 By [Simon Lindstedt](https://github.com/simonlindstedt)
 
-- <s/>`header.php:7` seems to link to a css file that do not exist.</s>
-- <s>Add an alt-tag to all images</s>
-- <s>I can’t see the dots to the left of the titles, the seem to have visibility: hidden att all times? If these are not to be included I would remove them entirely. </s>
-- `media.css:9 60` Since the dots are no longer present as far as I can tell, I would remove the class from the css entirely.
-- Nice general responsiveness for different sizes! I would include a max size as well, to prevent everything from spreading out too much.
-- `styles.css:26` Regarding point 4, maybe lock the size of the content at around 1300 px width, and use one set of the drawn line instead of the dashed one? Alternatively (development idea), a script/function that autogenerates the dashed lines based on the window width!
-- `index.php:25` I would suggest setting the css dynamically with either some sort of function or javascript instead. To make it more easy to configure later on!
-- Otherwise great job, the code is easy to read and I’m a big fan of the general look!
+- [x] `header.php:7` seems to link to a css file that do not exist.
+- [x] Add an alt-tag to all images
+- [x] I can’t see the dots to the left of the titles, the seem to have visibility: hidden att all times? If these are not to be included I would remove them entirely.
+- [ ]`media.css:9 60` Since the dots are no longer present as far as I can tell, I would remove the class from the css entirely.
+- [ ] Nice general responsiveness for different sizes! I would include a max size as well, to prevent everything from spreading out too much.
+- [ ] `styles.css:26` Regarding point 4, maybe lock the size of the content at around 1300 px width, and use one set of the drawn line instead of the dashed one? Alternatively (development idea), a script/function that autogenerates the dashed lines based on the window width!
+- [ ] `index.php:25` I would suggest setting the css dynamically with either some sort of function or javascript instead. To make it more easy to configure later on!
 
-> "Random quote."
+> Otherwise great job, the code is easy to read and I’m a big fan of the general look!
+
 
 ## :man_technologist: Creator
 
