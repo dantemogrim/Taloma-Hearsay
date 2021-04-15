@@ -76,7 +76,7 @@ By [Simon Lindstedt](https://github.com/simonlindstedt)
 
 ## :man_technologist: Creator
 
-[Dante Mogrim](https://github.com/mogrim-91)
+[Dante Mogrim](https://github.com/dantemogrim)
 
 ## :fleur_de_lis: License
 
